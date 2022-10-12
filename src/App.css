@@ -1,0 +1,66 @@
+.authentication .title {
+  font-size: 28px;
+  text-transform: uppercase;
+  color: var(--primary-one);
+}
+.authentication .email-input,
+.name-input {
+  width: 100%;
+  display: block;
+  font-size: 18px;
+  padding: 0.4rem 1rem;
+  margin-bottom: 2rem;
+  border: none;
+  background: white;
+  box-shadow: var(--secondary-shadow);
+  outline: none;
+}
+.authentication .password-input {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  font-size: 18px;
+
+  border: none;
+  background: white;
+  box-shadow: var(--secondary-shadow);
+  outline: none;
+  margin-bottom: 2rem;
+}
+.authentication .password-input input {
+  width: 90%;
+  padding: 0.4rem 1rem;
+}
+.authentication .password-input .see-button {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+.authentication button {
+  width: 100%;
+  padding: 0.4rem 1rem;
+  background: var(--primary-one);
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  box-shadow: var(--primary-shadow);
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+.authentication button:hover {
+  background: #0ae6bd;
+}
+.authentication .link {
+  color: #e83a3b;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: right;
+  display: block;
+  margin-top: 1rem;
+  text-decoration: underline;
+}

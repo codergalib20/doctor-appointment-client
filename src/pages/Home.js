@@ -17,6 +17,6 @@ export default function Home() {
         getData();
     }, [])
     return (
-        <div>Home</div>
+        <div>Doctor appointment</div>
     )
 }
